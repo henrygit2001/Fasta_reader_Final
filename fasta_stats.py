@@ -5,7 +5,6 @@ import sys
 import re
 from Bio import SeqIO
 
-dir1 = iter(os.listdir("C:/Users/Anon/Desktop/Fasta"))
 
 a, b, c = set(), set(), set()
 entries= 0
