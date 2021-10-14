@@ -5,7 +5,7 @@ import sys
 import re
 from Bio import SeqIO
 
-dir1 = iter(os.listdir("C:/Users/RaiqP/Desktop/Fasta"))
+dir1 = iter(os.listdir("C:/Users/Anon/Desktop/Fasta"))
 
 a, b, c = set(), set(), set()
 entries= 0
@@ -22,7 +22,7 @@ def get_set(set1, set2, set3):
 
 
 def Open_File(current_File):
-    with open(os.path.join("C:/Users/RaiqP/Desktop/Fasta", current_File)) as infile:
+    with open(os.path.join("C:/Users/Anon/Desktop/Fasta", current_File)) as infile:
         print(f"INFO: Reading {current_File}")
         for record in SeqIO.parse(infile, 'fasta'):
             global all_space
